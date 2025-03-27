@@ -276,7 +276,9 @@ VITE_GEOLOCATION_URL = https://api.country.is/
 ```
 NODE_ENV = development
 PORT = 5000
-DATABASE= **the database URL**
+DATABASE= mongodb+srv://<username>:<password>@cluster0.kqwa2.mongodb.net/databaseName?retryWrites=true&w=majority&appName=Cluster0
+//note the database name placement within the URL. This should be replaced with the actual name of your database.
+//Also, the <username> and <password> should be literally written as is. The code in the server.js will replace the actual username and password.
 USER= **database user**
 DATABASE_PASSWORD = **database password**
 JWT_SECRET = **the 256-bit secret generated earlier**

@@ -282,7 +282,7 @@ DATABASE= mongodb+srv://<username>:<password>@cluster0.kqwa2.mongodb.net/databas
 USER= **database user**
 DATABASE_PASSWORD = **database password**
 JWT_SECRET = **the 256-bit secret generated earlier**
-TMDB_AUTH = **TMDB_API_KEY**
+TMDB_AUTH = **TMDB_API_TOKEN**
 TMDB_URL = https://api.themoviedb.org/3
 ```
 

@@ -247,7 +247,7 @@ VITE_GEOLOCATION_URL = https://api.country.is/
 - Your completed .env file should now look like this.
 
 ```
-VITE_TMDB_AUTH = **TMDB_API_KEY**
+VITE_TMDB_AUTH = **TMDB_API_TOKEN**
 VITE_TMDB_URL = https://api.themoviedb.org/3
 VITE_API_KEY = **generated token**
 VITE_API_URL = /proxy/api/v1/conflix/users

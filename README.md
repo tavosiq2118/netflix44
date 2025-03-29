@@ -199,6 +199,9 @@ These features include:
 
 ## 🐾 Getting Started
 
+- A video instruction on how to run it locally can be found here
+  https://youtu.be/0z7cNlqHZfE?si=3EPfNgEm2RGkXva_
+
 - Clone the project
 
 ```bash

@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/*"
-to = "index.html"
+to = "/index.html"
 status = 200
 
 [[redirects]]
@@ -9,11 +9,11 @@ to = "https://following-claude-charlesxstorm-c20ba5bb.koyeb.app/:splat"
 status = 200
 
 [build]
-  command = "CI= npm run build"
-  publish = "/dist"
+  base = "client"
+  publish = "dist"
+  command = "npm run build"
 
 [build.environment]
   GENERATE_SOURCEMAP = "false"
-
-[build.production.environment]
-  GENERATE_SOURCEMAP = "false"
+  VITE_API_URL = "/api/v1/conflix/users"
+  VITE_PROXY_URL = "/api/"
